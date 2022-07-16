@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  images: {
+    domains: ["links.papareact.com", "image.tmbd.org"]
+  }
 }
 
 module.exports = nextConfig
